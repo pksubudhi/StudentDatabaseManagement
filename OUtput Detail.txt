@@ -1,0 +1,172 @@
+Faculty:
+Faculty: true
+Faculty: MAT,false
+Faculty: Superman,1938,PHY,true
+
+Student:
+Student: false
+Student: Math,false
+Student: Wonderwoman,1941,JST,true
+
+GeneralStaff:
+GeneralStaff: advise students
+GeneralStaff: Sanitation,clean
+GeneralStaff: Flash Gordon,1934,Security,safety
+
+Course: true,777,CMP,4
+Course: true,711,CMP,4
+Course: true,723,MAT,4
+Course: false,168,CMP,4
+Course: false,338,CMP,4
+
++==========================================================+
+| Courses                                                  |
++==========================================================+
+Course: CMP-777 | Number of Credits: 04 | Graduate
+Course: CMP-711 | Number of Credits: 04 | Graduate
+Course: MAT-723 | Number of Credits: 04 | Graduate
+Course: CMP-168 | Number of Credits: 04 | Undergraduate
+Course: CMP-338 | Number of Credits: 04 | Undergraduate
+
++==========================================================+
+| Students                                                 |
++==========================================================+
+Person: Name:                                : Birth Year:    0Student: studentID: 0001 | Major           undeclared |  Undergraduate | Number of Courses Taken:   0 | Courses Taken:
+Person: Name:                                : Birth Year:    0Student: studentID: 0002 | Major           undeclared |  Undergraduate | Number of Courses Taken:   0 | Courses Taken:
+Person: Name:                                : Birth Year:    0Student: studentID: 0003 | Major                 Math |  Undergraduate | Number of Courses Taken:   0 | Courses Taken:
+Person: Name:                    Wonderwoman : Birth Year: 1941Student: studentID: 0004 | Major                  JST |       Graduate | Number of Courses Taken:   0 | Courses Taken:
+
++==========================================================+
+| Faculties                                                |
++==========================================================+
+Person: Name:                                : Birth Year:    0 Employee: Department:                      | Employee Number:   1 Faculty:       false | Number of Courses taught:   0 | Courses Taught
+Person: Name:                                : Birth Year:    0 Employee: Department:                      | Employee Number:   2 Faculty:       false | Number of Courses taught:   0 | Courses Taught
+Person: Name:                                : Birth Year:    0 Employee: Department:                  MAT | Employee Number:   3 Faculty:       false | Number of Courses taught:   0 | Courses Taught
+Person: Name:                       Superman : Birth Year: 1938 Employee: Department:                  PHY | Employee Number:   4 Faculty:        true | Number of Courses taught:   0 | Courses Taught
+
++==========================================================+
+| General Staffs                                           |
++==========================================================+
+Person: Name:                                : Birth Year:    0 Employee: Department:                      | Employee Number:   5General Staff: Duty:
+Person: Name:                                : Birth Year:    0 Employee: Department:                      | Employee Number:   6General Staff: Duty:  advise students
+Person: Name:                                : Birth Year:    0 Employee: Department:           Sanitation | Employee Number:   7General Staff: Duty:      clean
+Person: Name:                   Flash Gordon : Birth Year: 1934 Employee: Department:             Security | Employee Number:   8General Staff: Duty:     safety
+
+
+MAIN MENU
+*******************
+
+1. Create/Add 3 Course
+2. Create/Add 3 Faculty
+3. Create/Add 3 General Staff
+4. Create/Add 3 Student
+5. Add a Course to a Faculty
+6. Add a Courses to Student
+9. Exit
+
+Enter your choice: 3
+**** Creating 3 GeneralStaff Objects ***
+
+Input for GeneralStaff Object #1
+Enter Birth year: 1981
+Enter Name: Arnold Hing
+Enter Department [Example MAT, PHY]: PHY
+Duty: cleaning
+
+Input for GeneralStaff Object #2
+Enter Birth year: 1988
+Enter Name: Marie Loin
+Enter Department [Example MAT, PHY]: MAT
+Duty: driving students
+
+Input for GeneralStaff Object #3
+Enter Birth year: 1996
+Enter Name: Abel Stoke
+Enter Department [Example MAT, PHY]: CHM
+Duty: student guide
+
+
+MAIN MENU
+*******************
+
+1. Create/Add 3 Course
+2. Create/Add 3 Faculty
+3. Create/Add 3 General Staff
+4. Create/Add 3 Student
+5. Add a Course to a Faculty
+6. Add a Courses to Student
+9. Exit
+
+Enter your choice: 4
+**** Creating 3 Student Objects ***
+
+Input for Student Object #1
+Enter Birth year: 2002
+Enter Name: Petree Kotrichiz
+Enter Major: AI
+Is a Graduate Student? [true/false]: true
+
+Input for Student Object #2
+Enter Birth year: 2007
+Enter Name: Sen Mulmul
+Enter Major: GHZ
+Is a Graduate Student? [true/false]: false
+
+Input for Student Object #3
+Enter Birth year: 2001
+Enter Name: Barbara
+Enter Major: NT
+Is a Graduate Student? [true/false]: true
+
+
+MAIN MENU
+*******************
+
+1. Create/Add 3 Course
+2. Create/Add 3 Faculty
+3. Create/Add 3 General Staff
+4. Create/Add 3 Student
+5. Add a Course to a Faculty
+6. Add a Courses to Student
+9. Exit
+
+Enter your choice: 9
+
++==========================================================+
+| Courses                                                  |
++==========================================================+
+Course: CMP-777 | Number of Credits: 04 | Graduate
+Course: CMP-711 | Number of Credits: 04 | Graduate
+Course: MAT-723 | Number of Credits: 04 | Graduate
+Course: CMP-168 | Number of Credits: 04 | Undergraduate
+Course: CMP-338 | Number of Credits: 04 | Undergraduate
+
++==========================================================+
+| Faculties                                                |
++==========================================================+
+Person: Name:                                : Birth Year:    0 Employee: Department:                      | Employee Number:   1 Faculty:       false | Number of Courses taught:   0 | Courses Taught
+Person: Name:                                : Birth Year:    0 Employee: Department:                      | Employee Number:   2 Faculty:       false | Number of Courses taught:   0 | Courses Taught
+Person: Name:                                : Birth Year:    0 Employee: Department:                  MAT | Employee Number:   3 Faculty:       false | Number of Courses taught:   0 | Courses Taught
+Person: Name:                       Superman : Birth Year: 1938 Employee: Department:                  PHY | Employee Number:   4 Faculty:        true | Number of Courses taught:   0 | Courses Taught
+
++==========================================================+
+| General Staffs                                           |
++==========================================================+
+Person: Name:                                : Birth Year:    0 Employee: Department:                      | Employee Number:   5General Staff: Duty:
+Person: Name:                                : Birth Year:    0 Employee: Department:                      | Employee Number:   6General Staff: Duty:  advise students
+Person: Name:                                : Birth Year:    0 Employee: Department:           Sanitation | Employee Number:   7General Staff: Duty:      clean
+Person: Name:                   Flash Gordon : Birth Year: 1934 Employee: Department:             Security | Employee Number:   8General Staff: Duty:     safety
+Person: Name:                    Arnold Hing : Birth Year: 1981 Employee: Department:                  PHY | Employee Number:   9General Staff: Duty:   cleaning
+Person: Name:                     Marie Loin : Birth Year: 1988 Employee: Department:                  MAT | Employee Number:  10General Staff: Duty: driving students
+Person: Name:                     Abel Stoke : Birth Year: 1996 Employee: Department:                  CHM | Employee Number:  11General Staff: Duty: student guide
+
++==========================================================+
+| Students                                                 |
++==========================================================+
+Person: Name:                                : Birth Year:    0Student: studentID: 0001 | Major           undeclared |  Undergraduate | Number of Courses Taken:   0 | Courses Taken:
+Person: Name:                                : Birth Year:    0Student: studentID: 0002 | Major           undeclared |  Undergraduate | Number of Courses Taken:   0 | Courses Taken:
+Person: Name:                                : Birth Year:    0Student: studentID: 0003 | Major                 Math |  Undergraduate | Number of Courses Taken:   0 | Courses Taken:
+Person: Name:                    Wonderwoman : Birth Year: 1941Student: studentID: 0004 | Major                  JST |       Graduate | Number of Courses Taken:   0 | Courses Taken:
+Person: Name:               Petree Kotrichiz : Birth Year: 2002Student: studentID: 0005 | Major                   AI |       Graduate | Number of Courses Taken:   0 | Courses Taken:
+Person: Name:                     Sen Mulmul : Birth Year: 2007Student: studentID: 0006 | Major                  GHZ |  Undergraduate | Number of Courses Taken:   0 | Courses Taken:
+Person: Name:                        Barbara : Birth Year: 2001Student: studentID: 0007 | Major                   NT |       Graduate | Number of Courses Taken:   0 | Courses Taken:
