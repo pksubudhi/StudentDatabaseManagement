@@ -1,4 +1,11 @@
 /*********************************************
+File Name: Person.java
+Developed by : P K Subudhi
+Contact me on (for any help): 
+	WhatsApp: +91-8895174939
+	Email: mailtopksubudhi
+	Website: www.pksubudhi.com
+	
 Class: Person (is a parent/base class to other classes like Student and Employee)
 	Fields:
 		name
