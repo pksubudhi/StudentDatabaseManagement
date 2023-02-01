@@ -1,7 +1,7 @@
 /*********************************************
 
 
-File Name: StudentProject.java
+File Name: Faculty.java
 Developed by : P K Subudhi
 Contact me on (for any help): 
 	WhatsApp: +91-8895174939
