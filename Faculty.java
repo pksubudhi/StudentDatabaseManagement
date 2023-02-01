@@ -1,4 +1,13 @@
 /*********************************************
+
+
+File Name: StudentProject.java
+Developed by : P K Subudhi
+Contact me on (for any help): 
+	WhatsApp: +91-8895174939
+	Email: mailtopksubudhi
+	Website: www.pksubudhi.com
+	
 Class: Faculty (chalid class of Employee)
 	Fields:
 		coursesTaught // an array
