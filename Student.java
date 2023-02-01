@@ -1,6 +1,4 @@
 /*********************************************
-
-/*
 File Name: Student.java
 Developed by : P K Subudhi
 Contact me on (for any help): 
